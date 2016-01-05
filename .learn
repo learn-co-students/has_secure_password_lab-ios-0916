@@ -1,9 +1,8 @@
 tags:
-  - session
-  - sessions_controller
-  - before_filter
+  - has_secure_password
   - login
+  - flash
 languages:
   - Ruby
 resources:
-  - http://guides.rubyonrails.org/action_controller_overview.html#filters
+  - http://api.rubyonrails.org/classes/ActionDispatch/Flash.html  
