@@ -17,15 +17,13 @@ Users should not be able to log in if they enter an incorrect password. Just red
 
 ## Instructions
 
-Create a User model and migrations. You'll find that there are already tests for the model. Use `has_secure_password` to easily get them to pass.
+1. Create a User model and migrations.
 
-Run your migrations.
+2. Create a Users controller. It should respond to new with the signup form, and respond to create by creating a new user.
 
-Create a `UsersController`. It should respond to `new` with a signup form, and respond to `create` by creating a new user. There are tests for this controller; ensure they pass.
+3. Create a Sessions controller. There are already tests for the sessions controller—ensure they pass.
 
-Create a `SessionsController`. There are already tests for the sessions controller—ensure they pass.
-
-Finally, you'll need to create a user homepage. You can either create a controller for it (a `WelcomeController` is a reasonable thing that you'll see frequently), or you can make it a route from the `UsersController`. Write any tests you feel you need for this new route or controller.
+4. Create a user homepage. You can either create a controller for it (a `WelcomeController` is a reasonable thing that you'll see frequently), or you can make it an action in the User's controller.
 
 Happy coding.
 
