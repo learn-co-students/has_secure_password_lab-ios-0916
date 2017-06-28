@@ -5,4 +5,4 @@ tags:
 languages:
   - Ruby
 resources:
-  - http://api.rubyonrails.org/classes/ActionDispatch/Flash.html  
+  - http://api.rubyonrails.org/classes/ActionDispatch/Flash.html
